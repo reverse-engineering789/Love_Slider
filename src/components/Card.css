@@ -1,0 +1,151 @@
+.MainCard{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.reviewImgDiv{
+    position: absolute;
+    border-top: 7rem;
+    z-index: 10;
+    margin: auto ;
+}
+.reviewImage{
+    position: relative; 
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;;
+    width: 140px;
+    height: 140px;
+    margin-top: -50px;
+    margin-left: -25px;
+    /* z-index: 25;  */
+}
+
+
+.UnderCircle{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(175, 53, 5);
+    border-radius: 50%;
+    position: absolute;    
+    /* margin-bottom: -8px; */
+    margin-top: -150px;
+    z-index: -10;
+    margin-left: -21px;
+}
+
+
+.reviewNameDiv{
+    text-align: center;
+    margin-top: 7px;
+}
+
+.reviewName{
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin-bottom: -9px;
+    font-family: Arial, sans-serif;;
+}
+ 
+
+.reviewJobDiv{
+   text-align: center;
+   margin-top: 7px;
+}
+
+.reviewJob{
+   color: rgb(150, 13, 13);
+   text-transform: uppercase;
+   font-size: small;
+   letter-spacing: 1px;
+}
+
+
+
+.QuoteLeft{
+    color: rgb(201, 134, 71);
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+
+.reviewText{
+    text-align: center;
+    margin-top: 4px;
+    color: #6B7280;
+}
+
+
+
+.QuoteRight{
+    color: rgb(201, 134, 71);
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+
+.slideButtonContainer{
+    display: flex;
+    font-size: large;
+    margin-top: 5px;
+    gap: 3px;
+    color: brown;
+    font-weight: bold;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+.slideRight{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(250, 183, 152);
+    color: wheat;
+}
+
+.slideRight:hover {
+    background-color: rgb(247, 207, 98);
+}
+.slideLeft{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(250, 183, 152);
+    color: wheat;
+}
+
+.slideLeft:hover {
+    background-color: rgb(250, 234, 145);
+}
+
+
+
+Random_Gen_Div{
+    display: inline-block;
+}
+.Random_Gen{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.Random_Gen:hover{
+    background-color: brown;
+    transition: all 400ms;
+    
+}
+
+
+
+
+
+
